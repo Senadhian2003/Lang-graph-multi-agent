@@ -1,0 +1,264 @@
+
+> langgraphbackend@1.0.0 start
+> npm run build && node dist/index.js
+
+
+> langgraphbackend@1.0.0 build
+> tsc
+
+Server is running on port 3000
+Received message: Explain about badminton
+Search Results: [{"title":"Badminton | History, Olympics, Rules, Equipment, & Champions | Britannica","url":"https://www.britannica.com/sports/badminton","content":"badminton,  court or lawn game played with lightweight rackets and a shuttlecock. Badminton is derived directly from the game “poona,” which was played by British army officers stationed in India in the 1860s. The Bath Badminton Club was established in Bath, England, in 1877 and introduced new rules to the game. The first All England Open Badminton Championships, considered the world’s first badminton tournament, were held in 1899. Badminton is an indoor sport played by two opposing players (singles) or two pairs (doubles), who use a shuttlecock during a rally to try to land it on their opponents’ court or force an error. To win the match, a player must secure two out of three games, each played to 21 points.","score":0.7467494,"raw_content":null},{"title":"Badminton: history, rules, equipment, techniques and more","url":"https://seumelhorjogo.com/badminton-en/badminton/","content":"Badminton history. Practices similar to badminton were already played in past civilisations, specifically in ancient times. However, modern badminton as we know it today has its historical roots in 19th century British India. At that time, a game called poona was popular in the Asian country. It involved a shuttlecock made of goose feathers and","score":0.7123327,"raw_content":null},{"title":"Badminton - Wikipedia","url":"https://en.wikipedia.org/wiki/Badminton","content":"Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. This is similar to tennis, except that in a badminton serve the whole shuttle must be below 1.15 metres from the surface of the court at the instant of being hit by the server's racket, the shuttlecock is not allowed to bounce and in badminton, the players stand inside their service courts, unlike tennis. The lightness of the shuttlecock and of badminton racquets allows badminton players to make use of the wrist and fingers much more than tennis players; in tennis, the wrist is normally held stable, and playing with a mobile wrist may lead to injury.","score":0.69795954,"raw_content":null}]
+Content: # Badminton: An Overview
+
+Badminton is a popular racquet sport that is played using lightweight rackets to hit a shuttlecock across a net. It can be played either as a singles game (one player against another) or as doubles (two players on each side). The objective of the game is to score points by landing the shuttlecock in the opponent's court or forcing the opponent to commit an error.
+
+## History
+
+The origins of badminton can be traced back to ancient civilisations; however, modern badminton developed in the 19th century in British India. The game called "poona" was played by British army officers in India during this time. The Bath Badminton Club in England was established in 1877 and brought forth new rules for the game. The first All England Open Badminton Championships, recognized as the world’s first official badminton tournament, took place in 1899.
+
+## Rules and Gameplay
+
+- **Scoring**: Matches are typically played in a best-of-three format. To win a match, a player or team must secure two out of three games, each played to 21 points.
+- **Service Rules**: In badminton, the shuttlecock must be served below a height of 1.15 meters from the court's surface, which is different from tennis.
+- **Rally**: Players score points by successfully hitting the shuttlecock such that it lands in the opponent's court. Each player must remain inside their respective service courts while serving.
+
+## Equipment
+
+The primary equipment needed to play badminton includes:
+- **Rackets**: Lightweight and designed for quick movements.
+- **Shuttlecock**: Usually made from goose feathers or plastic, it is essential to the game.
+
+## Conclusion
+
+Badminton is not just a recreational sport but also an Olympic discipline, highlighting its global appeal and competitive nature. Whether played competitively or for leisure, badminton remains a fast-paced and exhilarating game enjoyed by people of all ages.
+Markdown Response: # Badminton: A Comprehensive Overview
+
+Badminton is a dynamic and engaging racquet sport that captivates players and spectators alike. With origins steeped in history, it combines physical agility with strategic gameplay, allowing players to enjoy both its recreational and competitive aspects. This essay provides an overview of badminton, including its history, rules, gameplay, and essential equipment.
+
+## History of Badminton
+
+The roots of badminton can be traced back to ancient civilizations, but the sport we know today began to take shape in the 19th century within British India. During this period, British army officers played a game known as "poona," which shares similarities with modern badminton. The establishment of the Bath Badminton Club in England in 1877 marked a significant step towards formalizing the rules and structure of the game. As the sport gained popularity, the first All England Open Badminton Championships was held in 1899, marking it as the world’s first official badminton tournament. This pivotal event laid the groundwork for badminton's recognition as an organized sport and paved the way for the development of international competitions.
+
+## Rules and Gameplay
+
+Badminton is played in two formats: singles (one player versus another) and doubles (two players per team). Understanding the basic rules and gameplay is vital for players and enthusiasts alike.
+
+### Scoring System
+
+Matches typically follow a best-of-three format, where a player or team must win two out of three games played to 21 points. This scoring system fosters a competitive spirit, encouraging players to maintain focus and intensity throughout the match.
+
+### Service Rules
+
+One unique aspect of badminton is its serving technique. The shuttlecock must be delivered below a height of 1.15 meters from the court's surface, distinguishing it from other racquet sports like tennis. This rule demands precise control and skill from the server, influencing the match's overall flow.
+
+### Rally and Points
+
+Gameplay in badminton revolves around rallies, where players score points by successfully landing the shuttlecock in their opponent's court. During service, players must remain in their respective service courts, which adds an element of strategy and positioning to the game.
+
+## Equipment Needed
+
+To play badminton effectively, certain equipment is essential. The primary items include:
+
+- **Rackets**: Badminton rackets are lightweight and crafted for quick movements, allowing players to react rapidly during gameplay. The design and materials used in rackets contribute significantly to a player's performance.
+  
+- **Shuttlecock**: This vital piece of equipment is typically made from goose feathers or plastic. The choice of shuttlecock can affect the speed and trajectory of the game, making it crucial for players to select the appropriate type based on their skill level and playing conditions.
+
+## Conclusion
+
+Badminton transcends being merely a recreational activity; it is also an Olympic discipline that showcases its worldwide appeal and competitive spirit. With its rich history, structured rules, and essential equipment, badminton offers both excitement and challenges for players at any age. Whether one plays competitively or enjoys a casual game, badminton provides a fast-paced and exhilarating experience that continues to bring people together across the globe.
+Response: {
+  messages: [
+    HumanMessage {
+      "id": "e4da7800-d724-4229-a986-9fbfb2c2db18",
+      "content": "Explain about badminton",
+      "additional_kwargs": {},
+      "response_metadata": {}
+    },
+    AIMessage {
+      "id": "chatcmpl-BTTYMidLvfIi1F802puLg1OKz3dQa",
+      "content": "",
+      "additional_kwargs": {
+        "tool_calls": [
+          {
+            "function": "[Object]",
+            "id": "call_xOS4u9QpSH1Nx28MLQGJS27P",
+            "type": "function"
+          }
+        ]
+      },
+      "response_metadata": {
+        "tokenUsage": {
+          "promptTokens": 102,
+          "completionTokens": 25,
+          "totalTokens": 127
+        },
+        "finish_reason": "tool_calls",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "usage": {
+          "completion_tokens": 25,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens": 102,
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          },
+          "total_tokens": 127
+        },
+        "system_fingerprint": "fp_7a53abb7a2"
+      },
+      "tool_calls": [
+        {
+          "name": "internetSearchTool",
+          "args": {
+            "searchInput": "badminton overview, rules, gameplay, history"
+          },
+          "type": "tool_call",
+          "id": "call_xOS4u9QpSH1Nx28MLQGJS27P"
+        }
+      ],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "output_tokens": 25,
+        "input_tokens": 102,
+        "total_tokens": 127,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 0
+        }
+      }
+    },
+    ToolMessage {
+      "id": "83ee0fda-aa42-4800-8da4-74e47973a540",
+      "content": "[{\"title\":\"Badminton | History, Olympics, Rules, Equipment, & Champions | Britannica\",\"url\":\"https://www.britannica.com/sports/badminton\",\"content\":\"badminton,  court or lawn game played with lightweight rackets and a shuttlecock. Badminton is derived directly from the game “poona,” which was played by British army officers stationed in India in the 1860s. The Bath Badminton Club was established in Bath, England, in 1877 and introduced new rules to the game. The first All England Open Badminton Championships, considered the world’s first badminton tournament, were held in 1899. Badminton is an indoor sport played by two opposing players (singles) or two pairs (doubles), who use a shuttlecock during a rally to try to land it on their opponents’ court or force an error. To win the match, a player must secure two out of three games, each played to 21 points.\",\"score\":0.7467494,\"raw_content\":null},{\"title\":\"Badminton: history, rules, equipment, techniques and more\",\"url\":\"https://seumelhorjogo.com/badminton-en/badminton/\",\"content\":\"Badminton history. Practices similar to badminton were already played in past civilisations, specifically in ancient times. However, modern badminton as we know it today has its historical roots in 19th century British India. At that time, a game called poona was popular in the Asian country. It involved a shuttlecock made of goose feathers and\",\"score\":0.7123327,\"raw_content\":null},{\"title\":\"Badminton - Wikipedia\",\"url\":\"https://en.wikipedia.org/wiki/Badminton\",\"content\":\"Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. This is similar to tennis, except that in a badminton serve the whole shuttle must be below 1.15 metres from the surface of the court at the instant of being hit by the server's racket, the shuttlecock is not allowed to bounce and in badminton, the players stand inside their service courts, unlike tennis. The lightness of the shuttlecock and of badminton racquets allows badminton players to make use of the wrist and fingers much more than tennis players; in tennis, the wrist is normally held stable, and playing with a mobile wrist may lead to injury.\",\"score\":0.69795954,\"raw_content\":null}]",
+      "name": "internetSearchTool",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "tool_call_id": "call_xOS4u9QpSH1Nx28MLQGJS27P"
+    },
+    AIMessage {
+      "id": "chatcmpl-BTTYRCX5wLCoiexTF3wH0oMPhrF6Y",
+      "content": "",
+      "additional_kwargs": {
+        "tool_calls": [
+          {
+            "function": "[Object]",
+            "id": "call_LGsrG9KMQiYzJ96vrbKl9YCB",
+            "type": "function"
+          }
+        ]
+      },
+      "response_metadata": {
+        "tokenUsage": {
+          "promptTokens": 635,
+          "completionTokens": 444,
+          "totalTokens": 1079
+        },
+        "finish_reason": "tool_calls",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "usage": {
+          "completion_tokens": 444,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens": 635,
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          },
+          "total_tokens": 1079
+        },
+        "system_fingerprint": "fp_ded0d14823"
+      },
+      "tool_calls": [
+        {
+          "name": "markdownTool",
+          "args": {
+            "content": "# Badminton: An Overview\n\nBadminton is a popular racquet sport that is played using lightweight rackets to hit a shuttlecock across a net. It can be played either as a singles game (one player against another) or as doubles (two players on each side). The objective of the game is to score points by landing the shuttlecock in the opponent's court or forcing the opponent to commit an error.\n\n## History\n\nThe origins of badminton can be traced back to ancient civilisations; however, modern badminton developed in the 19th century in British India. The game called \"poona\" was played by British army officers in India during this time. The Bath Badminton Club in England was established in 1877 and brought forth new rules for the game. The first All England Open Badminton Championships, recognized as the world’s first official badminton tournament, took place in 1899.\n\n## Rules and Gameplay\n\n- **Scoring**: Matches are typically played in a best-of-three format. To win a match, a player or team must secure two out of three games, each played to 21 points.\n- **Service Rules**: In badminton, the shuttlecock must be served below a height of 1.15 meters from the court's surface, which is different from tennis.\n- **Rally**: Players score points by successfully hitting the shuttlecock such that it lands in the opponent's court. Each player must remain inside their respective service courts while serving.\n\n## Equipment\n\nThe primary equipment needed to play badminton includes:\n- **Rackets**: Lightweight and designed for quick movements.\n- **Shuttlecock**: Usually made from goose feathers or plastic, it is essential to the game.\n\n## Conclusion\n\nBadminton is not just a recreational sport but also an Olympic discipline, highlighting its global appeal and competitive nature. Whether played competitively or for leisure, badminton remains a fast-paced and exhilarating game enjoyed by people of all ages."
+          },
+          "type": "tool_call",
+          "id": "call_LGsrG9KMQiYzJ96vrbKl9YCB"
+        }
+      ],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "output_tokens": 444,
+        "input_tokens": 635,
+        "total_tokens": 1079,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 0
+        }
+      }
+    },
+    ToolMessage {
+      "id": "a3cd84a0-9a32-486d-adce-03fcf80b27a3",
+      "content": "# Badminton: A Comprehensive Overview\n\nBadminton is a dynamic and engaging racquet sport that captivates players and spectators alike. With origins steeped in history, it combines physical agility with strategic gameplay, allowing players to enjoy both its recreational and competitive aspects. This essay provides an overview of badminton, including its history, rules, gameplay, and essential equipment.\n\n## History of Badminton\n\nThe roots of badminton can be traced back to ancient civilizations, but the sport we know today began to take shape in the 19th century within British India. During this period, British army officers played a game known as \"poona,\" which shares similarities with modern badminton. The establishment of the Bath Badminton Club in England in 1877 marked a significant step towards formalizing the rules and structure of the game. As the sport gained popularity, the first All England Open Badminton Championships was held in 1899, marking it as the world’s first official badminton tournament. This pivotal event laid the groundwork for badminton's recognition as an organized sport and paved the way for the development of international competitions.\n\n## Rules and Gameplay\n\nBadminton is played in two formats: singles (one player versus another) and doubles (two players per team). Understanding the basic rules and gameplay is vital for players and enthusiasts alike.\n\n### Scoring System\n\nMatches typically follow a best-of-three format, where a player or team must win two out of three games played to 21 points. This scoring system fosters a competitive spirit, encouraging players to maintain focus and intensity throughout the match.\n\n### Service Rules\n\nOne unique aspect of badminton is its serving technique. The shuttlecock must be delivered below a height of 1.15 meters from the court's surface, distinguishing it from other racquet sports like tennis. This rule demands precise control and skill from the server, influencing the match's overall flow.\n\n### Rally and Points\n\nGameplay in badminton revolves around rallies, where players score points by successfully landing the shuttlecock in their opponent's court. During service, players must remain in their respective service courts, which adds an element of strategy and positioning to the game.\n\n## Equipment Needed\n\nTo play badminton effectively, certain equipment is essential. The primary items include:\n\n- **Rackets**: Badminton rackets are lightweight and crafted for quick movements, allowing players to react rapidly during gameplay. The design and materials used in rackets contribute significantly to a player's performance.\n  \n- **Shuttlecock**: This vital piece of equipment is typically made from goose feathers or plastic. The choice of shuttlecock can affect the speed and trajectory of the game, making it crucial for players to select the appropriate type based on their skill level and playing conditions.\n\n## Conclusion\n\nBadminton transcends being merely a recreational activity; it is also an Olympic discipline that showcases its worldwide appeal and competitive spirit. With its rich history, structured rules, and essential equipment, badminton offers both excitement and challenges for players at any age. Whether one plays competitively or enjoys a casual game, badminton provides a fast-paced and exhilarating experience that continues to bring people together across the globe.",
+      "name": "markdownTool",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "tool_call_id": "call_LGsrG9KMQiYzJ96vrbKl9YCB"
+    },
+    AIMessage {
+      "id": "chatcmpl-BTTYaFD5aWGErjrnsjZCTmpvjcCPm",
+      "content": "# Badminton: A Comprehensive Overview\n\nBadminton is a dynamic and engaging racquet sport that captivates players and spectators alike. With origins steeped in history, it combines physical agility with strategic gameplay, allowing players to enjoy both its recreational and competitive aspects. This essay provides an overview of badminton, including its history, rules, gameplay, and essential equipment.\n\n## History of Badminton\n\nThe roots of badminton can be traced back to ancient civilizations, but the sport we know today began to take shape in the 19th century within British India. During this period, British army officers played a game known as \"poona,\" which shares similarities with modern badminton. The establishment of the Bath Badminton Club in England in 1877 marked a significant step towards formalizing the rules and structure of the game. As the sport gained popularity, the first All England Open Badminton Championships was held in 1899, marking it as the world’s first official badminton tournament. This pivotal event laid the groundwork for badminton's recognition as an organized sport and paved the way for the development of international competitions.\n\n## Rules and Gameplay\n\nBadminton is played in two formats: singles (one player versus another) and doubles (two players per team). Understanding the basic rules and gameplay is vital for players and enthusiasts alike.\n\n### Scoring System\n\nMatches typically follow a best-of-three format, where a player or team must win two out of three games played to 21 points. This scoring system fosters a competitive spirit, encouraging players to maintain focus and intensity throughout the match.\n\n### Service Rules\n\nOne unique aspect of badminton is its serving technique. The shuttlecock must be delivered below a height of 1.15 meters from the court's surface, distinguishing it from other racquet sports like tennis. This rule demands precise control and skill from the server, influencing the match's overall flow.\n\n### Rally and Points\n\nGameplay in badminton revolves around rallies, where players score points by successfully landing the shuttlecock in their opponent's court. During service, players must remain in their respective service courts, which adds an element of strategy and positioning to the game.\n\n## Equipment Needed\n\nTo play badminton effectively, certain equipment is essential. The primary items include:\n\n- **Rackets**: Badminton rackets are lightweight and crafted for quick movements, allowing players to react rapidly during gameplay. The design and materials used in rackets contribute significantly to a player's performance.\n  \n- **Shuttlecock**: This vital piece of equipment is typically made from goose feathers or plastic. The choice of shuttlecock can affect the speed and trajectory of the game, making it crucial for players to select the appropriate type based on their skill level and playing conditions.\n\n## Conclusion\n\nBadminton transcends being merely a recreational activity; it is also an Olympic discipline that showcases its worldwide appeal and competitive spirit. With its rich history, structured rules, and essential equipment, badminton offers both excitement and challenges for players at any age. Whether one plays competitively or enjoys a casual game, badminton provides a fast-paced and exhilarating experience that continues to bring people together across the globe. \n\nFor more comprehensive details, you can check out [Britannica](https://www.britannica.com/sports/badminton), [Wikipedia](https://en.wikipedia.org/wiki/Badminton), or other sources dedicated to the sport of badminton.",
+      "additional_kwargs": {},
+      "response_metadata": {
+        "tokenUsage": {
+          "promptTokens": 1694,
+          "completionTokens": 678,
+          "totalTokens": 2372
+        },
+        "finish_reason": "stop",
+        "model_name": "gpt-4o-mini-2024-07-18",
+        "usage": {
+          "completion_tokens": 678,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens": 1694,
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          },
+          "total_tokens": 2372
+        },
+        "system_fingerprint": "fp_ded0d14823"
+      },
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "output_tokens": 678,
+        "input_tokens": 1694,
+        "total_tokens": 2372,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 0
+        }
+      }
+    }
+  ]
+}
