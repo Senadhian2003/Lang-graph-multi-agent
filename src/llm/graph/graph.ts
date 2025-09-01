@@ -2,7 +2,7 @@ import { START, StateGraph } from "@langchain/langgraph";
 import { AgentState } from "../agents/state.js";
 import { researcherNode } from "../agents/infoRetrieverAgent/info-retriever-agent.js";
 import { docGenNode } from "../agents/communicationAgent/doc-generator-agent.js";
-import { members, supervisorChain } from "../agents/supervisorAgent/supervisorAgent.js";
+import { members, supervisorChain } from "../agents/supervisorAgent/supervisor-agent.js";
 
 // 1. Create the graph
 const workflow = new StateGraph(AgentState)
