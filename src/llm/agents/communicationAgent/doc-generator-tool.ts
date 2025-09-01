@@ -2,17 +2,17 @@
 
 import { z } from "zod";
 import { tool } from "@langchain/core/tools";
-import { model } from "../model.js";
+import { model } from "../../model.js";
 import { HumanMessage, SystemMessage } from "@langchain/core/messages";
-import { MARKDOWN_TOOL_PROMPT } from "../../prompts/index.js";
+import { MARKDOWN_TOOL_PROMPT } from "../../../prompts/index.js";
 import { md2docx } from '@adobe/helix-md2docx';
 import fs from "fs";
 import path from "path";
-const essayGeneratorToolSchema = z.object({
+const docGeneratorToolSchema = z.object({
    content : z.string().describe("The the raw information about the topic that needs to be converted into an essay"),
 });
 
-export const essayGeneratorTool = tool(
+export const documentGeneratorTool = tool(
   async ({content}): Promise<string> => {
     console.log("Content:", content);
     const response = await model.invoke([
@@ -41,7 +41,7 @@ export const essayGeneratorTool = tool(
   {
     name: "essayTool",
     description: "Only use this tool when the user explicitly asks to generate an essay or a document or structured markdown content.",
-    schema: essayGeneratorToolSchema,
+    schema: docGeneratorToolSchema,
   }
 );
 

@@ -4,6 +4,7 @@ import { BaseMessage, HumanMessage, RemoveMessage, filterMessages} from "@langch
 import { PostgresSaver } from "@langchain/langgraph-checkpoint-postgres";
 import { pool } from "./pg-sql/pg-connection.js";
 import {v4 as uuidv4} from "uuid";
+import { triageGraph } from "./llm/graph/graph.js";
 
 const app = express();
 
@@ -23,17 +24,17 @@ app.post("/chat", async (req: Request, res: Response) => {
 
   console.log("Received message:", query);
   console.log("Received threadId:", threadId);
-  const controller = new AbortController();
-  console.log(controller)
+  // const controller = new AbortController();
+  // console.log(controller)
   
-  executionControllers.set(threadId, controller);
-  const config = { configurable: { thread_id: threadId },signal: controller.signal, };
+  // executionControllers.set(threadId, controller);
+  // const config = { configurable: { thread_id: threadId },signal: controller.signal, };
   const message = new HumanMessage({
     id: uuidv4(),
     content: query,
   });
  
-  const response = await langGraph.invoke({ messages: [message] }, config);
+  const response = await triageGraph.invoke({ messages: [message] },  { recursionLimit: 100 });
   console.log("Response:", response.messages[response.messages.length - 1].content);
   res.send({
     response: response.messages[response.messages.length - 1].content,

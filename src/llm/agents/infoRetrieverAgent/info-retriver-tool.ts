@@ -1,5 +1,5 @@
 import { TavilySearchResults } from "@langchain/community/tools/tavily_search";
-import { tavilyApiKey } from "../../constants/app-constants.js";
+import { tavilyApiKey } from "../../../constants/app-constants.js";
 import { TavilySearch } from "@langchain/tavily";
 import { z } from "zod";
 import { tool } from "@langchain/core/tools";
