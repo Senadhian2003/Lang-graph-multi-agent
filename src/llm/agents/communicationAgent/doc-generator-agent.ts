@@ -5,9 +5,13 @@ import { AgentState } from "../state.js";
 import { model } from "../../model.js";
 import { HumanMessage } from "@langchain/core/messages";
 import { documentGeneratorTool } from "./doc-generator-tool.js";
+import { client } from "./mcp/mcp-client.js";
+
+const mcpTools = await client.getTools();
+console.log("MCP Tools loaded:", mcpTools.map(t => t.name));
 const docGenAgent = createReactAgent({
     llm : model,
-    tools: [documentGeneratorTool],
+    tools: [documentGeneratorTool, ...mcpTools],
     stateModifier: new SystemMessage("You excel at generating documents. Use the researcher's information to generate the documents.")
   })
   
