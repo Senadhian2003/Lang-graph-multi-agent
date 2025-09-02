@@ -8,6 +8,7 @@ import { MARKDOWN_TOOL_PROMPT } from "../../../prompts/index.js";
 import { md2docx } from '@adobe/helix-md2docx';
 import fs from "fs";
 import path from "path";
+import { uploadToBlobStorage } from "../../../utils/azure-blob.js";
 const docGeneratorToolSchema = z.object({
    content : z.string().describe("The the raw information about the topic that needs to be converted into an essay"),
 });
@@ -23,19 +24,21 @@ export const documentGeneratorTool = tool(
     console.log("Markdown Response:", markdownResponse);
     const buffer = await md2docx(markdownResponse);
 
- // Ensure generatedDocuments folder exists
- const folderPath = path.join(process.cwd(), "generatedDocuments");
- if (!fs.existsSync(folderPath)) {
-   fs.mkdirSync(folderPath, { recursive: true });
- }
+//  // Ensure generatedDocuments folder exists
+//  const folderPath = path.join(process.cwd(), "generatedDocuments");
+//  if (!fs.existsSync(folderPath)) {
+//    fs.mkdirSync(folderPath, { recursive: true });
+//  }
   
     // Create unique filename with timestamp
     const dateStr = new Date().toISOString().replace(/[:.]/g, "-"); 
     const fileName = `GeneratedDocument_${dateStr}.docx`;
      // Save file locally in current working directory
-     const filePath = path.join(folderPath, fileName);
-     fs.writeFileSync(filePath, buffer);
-    return "Document generated successfully and saved in local storage at " + filePath;
+    //  const filePath = path.join(folderPath, fileName);
+    //  fs.writeFileSync(filePath, buffer);
+
+    const fileUrl = uploadToBlobStorage(fileName, buffer)
+    return "Document generated successfully and saved at " + fileUrl;
 
   },
   {
